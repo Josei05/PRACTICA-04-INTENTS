@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/CBox1"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Aji de gallina" />
+    <CheckBox
+        android:id="@+id/CBox2"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Arroz con pato"
+        android:layout_below="@id/CBox1"/>
+    <CheckBox
+        android:id="@+id/CBox3"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Asado de pollo"
+        android:layout_below="@id/CBox2"
+        />
+    <CheckBox
+        android:id="@+id/CBox4"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Adobo de chancho"
+        android:layout_below="@id/CBox3"
+        />
+    <CheckBox
+        android:id="@+id/CBox5"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Chicharron de chancho"
+        android:layout_below="@id/CBox4"
+        />
+    <CheckBox
+        android:id="@+id/CBox6"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Picante"
+        android:layout_below="@id/CBox5"
+        />
+
+    <Button
+        android:id="@+id/Btn_Pedido"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:text="Enviar Pedido" />
+
+</RelativeLayout>
